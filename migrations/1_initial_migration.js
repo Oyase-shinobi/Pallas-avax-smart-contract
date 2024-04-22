@@ -14,7 +14,7 @@ module.exports = async function (deployer, network, accounts) {
 
   let tokenInstance = await Token.deployed();
 
-  // await addLiq(tokenInstance, treasury);
+  // await addLiq(tokenInstance, treasury);   
 
 };
 
